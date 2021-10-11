@@ -10,10 +10,10 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Huy Bot",
-    "PREFIX": ".",
+    "BOTNAME": "logn bot dep trai",
+    "PREFIX": "/",
     "ADMINBOT": [
-        "527134543"
+        "666081179"
     ],
     "DATABASE": {
         "sqlite": {
