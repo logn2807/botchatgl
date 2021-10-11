@@ -61,19 +61,19 @@ module.exports.run = async({api,event,args}) => {
     if (args[0] == "admin") {
       var callback = () => api.sendMessage(
   {body:`梁Admin Bot梁\n
-👀 Tên: Hoàng Hải Long ( LTD )
-❎ Tuổi: 19 🐒
+👀 Tên: Phùng Gia Long ( Logn )
+❎ Tuổi: 14 🐒
 👤 Giới tính: Nam
-💫 Chiều cao cân nặng: 1m71 x 52kg
-💘 Mối quan hệ: Độc thân
-🌎 Quê quán: Phúc Yên ( Vĩnh Phúc - 88 )
+💫 Chiều cao cân nặng: 1m74 x 57kg
+💘 Mối quan hệ: Hẹn Hò
+🌎 Quê quán: Ninh Bình ( Ninh An - 35 )
 👫 Gu: Biết nấu cơm
 🌸 Tính cách: Chả biết nữa =))
-🌀 Sở thích: Chơi game, xem phim anime blabla, ăn, ngủ
+🌀 Sở thích: Chơi game, xem phim  blabla, ăn, ngủ
 💻Contact💻
-☎ SĐT&Zalo:035.525.8611
-🌐 Facebook: https://www.facebook.com/longk.hoanghai
-✉️ Email: hoanghailongk@gmail.com`,
+☎ SĐT&Zalo:091.854.6188
+🌐 Facebook: https://www.facebook.com/Founder.Logn.OFFCIAL
+✉️ Email: Longdeeptry287@gmail.com`,
     attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
       return request(
