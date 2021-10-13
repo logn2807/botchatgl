@@ -8,4 +8,4 @@ module.exports.config = {
 	cooldowns: 0
 };
 
-module.exports.run = ({ event, api }) => api.sendMessage(`\n★Bạn có thể donate cho Admin Qua\nMomo:\nThẻ siêu rẻ: 0338520780\nXin cảm ơn bạn đã donate`, event.threadID, event.messageID);
+module.exports.run = ({ event, api }) => api.sendMessage(`\n★Bạn có thể donate cho Admin Qua\nMomo:\nThẻ siêu rẻ: 0918546188\nXin cảm ơn bạn đã donate`, event.threadID, event.messageID);
