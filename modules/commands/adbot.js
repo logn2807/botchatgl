@@ -72,7 +72,7 @@ module.exports.run = async({api,event,args}) => {
 🌀 Sở thích: Chơi game, xem phim  blabla, ăn, ngủ
 💻Contact💻
 ☎ SĐT&Zalo:091.854.6188
-🌐 Facebook: https://www.facebook.com/Founder.Logn.OFFCIAL
+🌐 Facebook: https://www.facebook.com/Logn.July.OFFCIAL
 ✉️ Email: Longdeeptry287@gmail.com`,
     attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
