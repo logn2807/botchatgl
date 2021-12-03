@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
   const time = moment.tz("Asia/Ho_Chi_minh").format("HH:MM:ss L");
   var idgr = `${event.threadID}`;
 
-  var tl = ["chào bạn tôi là bot của Văn Huy", "bạn kêu tôi có việc gì?", "tôi yêu bạn vai lon", "Yêu em <3", "Hi, chào con vợ bé:3", "Vợ gọi có việc gì không?", "Sử dụng callad để liên lạc với admin!", "Em là bot cute nhất hành tinh", "Nói gì thế con lợn", "Em đây~~~~"];
+  var tl = ["chào bạn tôi là bot của Gia Long", "bạn kêu tôi có việc gì?", "tôi yêu bạn vai lon", "Yêu em <3", "Hi, chào con vợ bé:3", "Vợ gọi có việc gì không?", "Sử dụng callad để liên lạc với admin!", "Em là bot cute nhất hành tinh", "Nói gì thế con lợn", "Em đây~~~~"];
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
   if ((event.body.toLowerCase() == "bot out")) {
@@ -45,12 +45,12 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
   };
 
   if ((event.body.toLowerCase() == "bot lon")) {
-    return api.sendMessage("Thành viên đã cố ý chửi bot, do đó đã vi phạm luật bot nên bot sẽ out và muốn add lại thì xin liên hệ qua admin qua Fb: Văn Huy để được hỗ trợ\nLink fb nè: https://www.facebook.com/vanhuy1501media", threadID, () =>
+    return api.sendMessage("Thành viên đã cố ý chửi bot, do đó đã vi phạm luật bot nên bot sẽ out", threadID, () =>
       api.removeUserFromGroup(api.getCurrentUserID(), threadID));
   };
 
   if ((event.body.toLowerCase() == "bot óc chó")) {
-    return api.sendMessage("Thành viên đã cố ý chửi bot, do đó đã vi phạm luật bot nên bot sẽ out và muốn add lại thì xin liên hệ qua admin qua Fb: Văn Huy để được hỗ trợ\nLink fb nè: https://www.facebook.com/vanhuy1501media", threadID, () =>
+    return api.sendMessage("Thành viên đã cố ý chửi bot, do đó đã vi phạm luật bot nên bot sẽ out ", threadID, () =>
       api.removeUserFromGroup(api.getCurrentUserID(), threadID));
   };
 
@@ -67,7 +67,7 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
   };
 
   if ((event.body.toLowerCase() == "@Văn Huy") || (event.body.toLowerCase() == "@Vũ Huy")) {
-    return api.sendMessage("Ai kêu chủ tao đấy, mà làm ơn đừng tag anh ấy mà hãy liên hệ qua Fb: https://www.facebook.com/vanhuy1501media ", threadID);
+    return api.sendMessage("Ai kêu chủ tao đấy ", threadID);
   };
 
   if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hi")) {
